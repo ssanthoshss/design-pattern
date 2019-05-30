@@ -5,12 +5,6 @@ module ReportFormatters
       data.to_json
     end
   end
-  class PlainText
-    def self.format(data)
-      data.to_s
-    end
-  end
-  
 end
 
 class ReportGenerator
