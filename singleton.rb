@@ -7,10 +7,9 @@ end
 
 class Single
 	def test_single
-      ObjectSpace.each_object(Lazy){} # => 0
-
-      Lazy.instance                   # => #<Lazy:0x00007fc25a1b8d10>
-      p ObjectSpace.each_object(Lazy){} # => 1
+           ObjectSpace.each_object(Lazy){} # => 0
+		Lazy.instance                   # => #<Lazy:0x00007fc25a1b8d10>
+		p ObjectSpace.each_object(Lazy){} # => 1
      end
 end
 
