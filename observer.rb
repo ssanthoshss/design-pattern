@@ -16,8 +16,8 @@ class WeatherStation
 
 		if @weather != current_weather
 			changed
-            @weather = current_weather
-			notify_observers(current_weather)
+                 @weather = current_weather
+	         notify_observers(current_weather)
 		end
 
 		sleep 3
