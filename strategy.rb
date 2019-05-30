@@ -23,9 +23,9 @@ end
 
 class Result
 	def Json
-		data = { A: 31, B: 24, C: 10 }
-        p ReportGenerator.generate(data, ReportFormatters::JSON)
-    end
+        	data = { A: 31, B: 24, C: 10 }
+                p ReportGenerator.generate(data, ReportFormatters::JSON)
+        end
 end
 
 
